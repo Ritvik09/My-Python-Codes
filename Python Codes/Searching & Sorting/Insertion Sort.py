@@ -10,6 +10,6 @@ def inserSort(A):
                 break
     return A
 
-B = list(map(str,input().split()))
+B = list(map(int,input().split()))
 print(inserSort(B))
 
