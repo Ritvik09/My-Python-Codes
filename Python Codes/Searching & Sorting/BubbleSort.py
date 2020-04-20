@@ -5,5 +5,5 @@ def bubbleSort(myList):
                 myList[j], myList[j+1] = myList[j+1], myList[j]
     return myList
 
-theList = list(map(str,input().split()))
+theList = list(map(int,input().split()))
 print(bubbleSort(theList))
